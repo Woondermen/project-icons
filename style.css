@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+    background-image: url(https://images.pond5.com/animation-popular-social-media-logos-footage-086099421_prevstill.jpeg);
+}
+
+.icons{
+    list-style: none;
+    width: 800px;
+    height: 150px;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 30px;
+    background-color: rgb(13, 37, 56);
+    /* background-image: url(https://images.pond5.com/animation-popular-social-media-logos-footage-086099421_prevstill.jpeg); */
+    /* background-size: cover; */
+}
+.icons li{
+    width: 70px;
+    height: 70px;
+    border: 2px solid;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    transition: 150ms;
+    margin-top: 40px;
+}
+
+.icons li:hover {
+    transform: scale(1.01);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(107, 103, 103);    
+    transition:  200ms;
+
+}
+.icons li a i{
+    color: rgb(28, 93, 190);
+    font-size: 30px;
+    transition: 500ms;
+    margin-top: 15px;
+
+
+}
+.icons :hover li a i{
+    transform: scale(1.1);
+    color: rgb(180, 159, 159);
+}
